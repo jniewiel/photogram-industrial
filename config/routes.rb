@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :photos
+  resources :comments
   devise_for :users
   # Defines the root path route ("/")
   root "photos#index"
